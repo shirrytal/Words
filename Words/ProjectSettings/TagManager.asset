@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Popupoverlay
+  - Popupdialog
+  - w_1_l1
+  - w_1_l2
+  - w_1_l3
+  - w_1_l4
+  - w_1_l5
+  - w_2_l1
+  - w_2_l2
+  - w_2_l3
+  - w_2_l4
+  - w_3_l1
+  - w_3_l2
+  - w_3_l3
+  - w_3_l4
+  - w_4_l1
+  - w_4_l2
+  - w_4_l3
+  - w_5_l1
+  - w_5_l2
+  - w_5_l3
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 2554966951
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 4187320111
+    locked: 0

@@ -1,0 +1,19 @@
+CXXFLAGS=-std=c++11 -Wall -Wextra -pedantic -O3 -g
+SRC=main.cpp
+HEADERS=main.hpp
+LDFLAGS=-lcurl
+OBJ=$(SRC:.cpp=.o)
+EXECUTABLE=main
+
+
+all: $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJ)
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+
+%.o: %.cpp $(HEADERS)
+	$(CXX) $(CXXFLAGS) -o $@ -c $<
+
+clean:
+	rm -f $(OBJ) $(EXECUTABLE)

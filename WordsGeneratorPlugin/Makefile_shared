@@ -1,0 +1,17 @@
+CXXFLAGS=-std=c++11 -Wall -Wextra -pedantic -O3 -g
+SRC=main.cpp
+LDFLAGS=-lcurl
+HEADER=main.hpp
+OBJ=$(SRC:.cpp=.o)
+LIBRARY=MyPlugin.bundle
+
+
+all: $(LIBRARY)
+$(LIBRARY): $(OBJ)
+	$(CXX) -shared -o $@ $^ $(LDFLAGS)
+
+%.o: %.cpp $(HEADER)
+	$(CXX) $(CXXFLAGS) -fPIC -o $@ -c $<
+clean:
+	rm -f $(OBJ) $(LIBRARY)
+

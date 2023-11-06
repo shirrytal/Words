@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "8135944092",
+    "firebase_url": "https://words-unity-36083-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "words-unity-36083",
+    "storage_bucket": "words-unity-36083.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8135944092:android:25c97465c2d3d135ebca59",
+        "android_client_info": {
+          "package_name": "com.Nadav.Words"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8135944092-1ah6m1hpm2ealk8n13ajtj7ng7ure3qr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLnNjK6n2PpIj1W1pNzzmKuXtFkjjY0ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8135944092-1ah6m1hpm2ealk8n13ajtj7ng7ure3qr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
